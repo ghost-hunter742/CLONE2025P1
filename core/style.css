@@ -1,0 +1,301 @@
+* {
+    margin: 0;
+    padding: 0;
+    color: white;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body {
+
+    overflow-y: scroll;
+}
+a{
+    text-decoration: none;
+    display: inline-block;
+}
+
+.container {
+    background-image: url(asset/base.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 5vh;
+
+}
+
+.cont1box {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.box11 {
+    margin-left: 6vw;
+    width: max(300px, 40.5vw);
+    height: 10vmin;
+}
+
+.box12 {
+    margin-left: 6vw;
+    margin-right: 6vw;
+    width: max(300px, 40.5vw);
+    height: 10vmin;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.box121 {
+
+    margin-right: 2vmax;
+    margin-left: 15vw;
+    margin-top: 0;
+}
+
+select {
+    background-color: rgba(240, 248, 255, 0);
+    width: max(8vw, 100px);
+    height: 8vmin;
+    border: 1px solid rgb(155, 155, 155);
+    border-radius: 0.5vw;
+    font-size: max(18px, 1.3vw);
+}
+
+option {
+    color: rgb(0, 0, 0);
+    font-size: max(18px, 2vw);
+}
+
+.signin {
+    text-align: center;
+    background-color: #ff0000;
+    width: max(8vw, 100px);
+    height: 4vmin;
+    font-size: max(18px, 1.5vw);
+    padding: max(6px, 1vw);
+    border: 0.1px solid rgba(0, 0, 0, 0);
+    border-radius: 0.5vw;
+}
+
+.box13 {
+    width: 99vw;
+    height: 84vh;
+    display: grid;
+    grid-template-areas: "waste want want want waste";
+}
+
+.box13x {
+    width: max(60vw, 360px);
+    grid-area: want;
+}
+
+.box131 {
+    font-size: max(5vw, 30px);
+    text-align: center;
+}
+
+.box132 {
+    font-size: max(2.5vw, 18px);
+    text-align: center;
+    margin-bottom: 1vw;
+}
+
+.box133 {
+    font-size: max(2.5vw, 18px);
+    text-align: center;
+}
+
+.loginst{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 5vw;
+}
+input {
+    border: 2px solid rgb(118, 118, 118);
+    border-radius: .5vw;
+    width: max(35vw, 100px);
+    height: 10vh;
+    font-size: max(18px,1vw);
+    background-color: rgba(240, 248, 255, 0);
+}
+
+.getstarted{
+    margin-left: 1vw;
+    border: .1px solid rgba(244, 165, 96, 0);
+    border-radius: .5vw;
+    padding: 0.8vw;
+    width: max(10vw, 100px);
+    height: 10vh;
+    font-size: max(18px,1vw);
+    background-color: #ff0000;
+}
+
+hr {
+    border: 3px solid #ff0000;
+}
+
+.box21 {
+    padding: 4vmax;
+    font-size: 2vmax;
+}
+
+.cont2 {
+    background-color: rgb(19, 0, 19);
+}
+
+.box22 {
+    padding: 4vmax;
+    padding-top: 0;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.boxmovie1 {
+    background-image: url(asset/movie/dMxentLHEJPBMQCPXHrUKluODpe.webp);
+}
+
+.boxmovie2 {
+    background-image: url(asset/movie/ENT_1_-_F_1_1748256991152.avif);
+}
+
+.boxmovie3 {
+    background-image: url(asset/movie/45379e75658d39bd42a97c1a873c4cc7.jpg);
+}
+
+.boxmovie4 {
+    background-image: url(asset/movie/The_Royals_\(2025_TV_series\).jpg);
+}
+
+.boxmovie5 {
+    background-image: url(asset/movie/Jaat_film_poster.jpg);
+}
+
+.boxmovie6 {
+    background-image: url(asset/movie/Sikandar_2025_film_poster.jpg);
+}
+
+.boxmovie7 {
+    background-image: url(asset/movie/thediplomat.jpeg);
+}
+
+.boxmovie8 {
+    background-image: url(asset/movie/Good_Bad_Ugly_poster.jpg);
+}
+
+.boxmovie9 {
+    background-image: url(asset/movie/0a24544308ce3e26c07d1731d9c9bd77.jpg);
+}
+
+.boxmovie10 {
+    background-image: url(asset/movie/71boLb-SEhL.jpg);
+}
+
+.boxmovie {
+    border: 1px solid rgb(19, 0, 19);
+    margin-right: 2vmax;
+    border-radius: 1vmax;
+    width: 15vmax;
+    height: 20vmax;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.cont3 {
+    background-color: rgb(19, 0, 19);
+}
+
+.box31 {
+    padding: 4vmax;
+    font-size: 2vmax;
+}
+.box32{
+    display: flex;
+    flex-wrap: wrap;
+}
+.box32x{
+    border: 1px solid rgba(0, 0, 0, 0);
+    border-radius: 12px;
+    padding: 12px;
+    margin: 12px;
+    width: max(450px,23.4vw);
+    font-size: max(18px,1.5vw);
+    background-color: rgb(58, 0, 88);
+}
+.larger{
+    font-size: max(24px,2vw);
+    font-weight: 800;
+}
+.logstpad{
+    display: grid;
+    grid-template-areas: "waste want want want waste";
+    
+}
+.ghost{
+    display: flex;
+    flex-wrap: wrap;
+    width: max(60vw, 360px);
+    grid-area: want;
+
+}
+.question{
+    margin: 1vw;
+    color: white;
+    background-color: rgb(60, 59, 59);
+    font-size: max(24px,2vmax);
+}
+.quesbtn{
+    display: flex;
+    padding: 1.5vw;
+    justify-content: space-between;
+    width: max(93vw,360px);
+    font-size: 2vw;
+    background-color: rgb(60, 59, 59);
+    border: none;
+}
+.question:hover{
+    background-color: rgb(108, 108, 108);
+}
+.quesbtn:hover{
+    background-color: rgb(108, 108, 108);
+}
+.fullques{
+    margin: 1vw;
+    padding: 1.5vw;
+    color: white;
+    font-size: 2vw;
+    background-color: rgb(60, 59, 59);
+    border: none;
+}
+.big{
+    padding-left: 5vw;
+    font-size: max(2vw,18px);
+}
+.box34{
+    display: flex;
+    flex-wrap: wrap;
+}
+.box34x{
+    width:max(479.5px,24vw);
+    height: max(50px,2.65vw);
+    font-size: max(24px,1.3vw);
+    padding: max(13px,0.32vw);
+    text-align: center;
+}
+.big1{
+    padding-left: 5vw;
+    font-size: max(2vw,18px);
+    padding: max(40px,2vw);
+
+}
+.big2{
+    font-size: 5vw;
+    color: #ff0000;
+}
+
+.footer{
+    height: 100vh;
+    font-size: 5vw;
+    background-color: rgb(19, 0, 19);
+}
